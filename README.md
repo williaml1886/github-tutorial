@@ -6,7 +6,9 @@ _by William Law_
 ## Git vs. GitHub
 
   * Git is basically like a version control that keeps snapshots of "code". Git also runs in the command line, and makes a basic workflow.
+  
   * Github stores code in the cloud, and can visually track changes you've made. Github can also easily collaborate on files, but must require Git.
+  
 ---
 ## Initial Setup
   * Before you initialize, you must make sure [you are logged into your account](hstat.org/sep11). In order to initialize, you must make a new folder, typing `mkdir <directory-name>`. However, you're not done yet! You need to run the code, by using and typing `git init` into a directory or repository. After you initialize in the directory or repository using the input `git init`, 
