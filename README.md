@@ -19,9 +19,9 @@ you'll notice that more Git commands, such as `git status`, `git add`, `git comm
   * To create a Github account, make sure you are using your _school account_. You can create a Github account using your school account [<first-and-last-name-and-last-4-digit-numbers-of-your-ID>](hstat.org/first-name-last-name-initial-last-4-digit-numbers-of-your-ID) However, if you are new to Github and don't utilize the school account, you are free to choose a username for your own desire, but PLEASE, ensure it is appropriate. After entering your username, you must then enter your e-mail that you use daily, as _Github will occasionally, or seldomly, e-mail you notifications_ you don't want to miss. After entering your e-mail, now create a password. You must enter a password that you can remember. It must be more than, or at least, seven characters, with 1 letter being _lowercase_ and the rest being uppercase, and don't forget to add a number next to your last name. It's your choice how you want to configure your password, but please, when entering a password when signing up, make sure to write it down so you don't forget.
   * Now, before you're a few steps away to set up a repository, you're on step 2. Select "Unlimited public repositories for free".
   * Now that you're a step away, you may answer your "Tailor your experience" answer; however, it is not required. You may also skip this step if you wish. After that, you're all  **SET UP!!!** You are now ready to make and set up a repository for the first time.
-  * 
+  
   * ---
-  * 
+  
 ## Repository Setup  
   * Now that you've successfully set up your account, you'll want to get started on creating a new repository. Go to Github. Click on the top right, which is the icon of your profile, then click on **Settings**.
     * _Command syntax_
