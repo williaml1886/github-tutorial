@@ -75,90 +75,19 @@ you'll notice that more Git commands, such as <code>git status</code>, <code>git
 <a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
 
 <ul>
-<li>Now that you've successfully set up your account, you'll want to get started on creating a new repository. Go to Github. Click on the top right, which is the icon of your profile, then click on <strong>Settings</strong>.
-
-<ul>
+<li><p>Now that you've successfully set up your account, you'll want to get started on creating a new repository. Go to Github. Click on the top right, which is the icon of your profile, then click on <strong>Settings</strong>.</p></li>
+<li><p>Now that you're on Settings, go to the left sidebar, and click <em>SSH and GPG keys</em>. After you click on <em>SSH and GPG Keys</em>, look for the <strong>New SSH key</strong> and click on it. Always type "Cloud9" as the title.</p></li>
 <li>
-<em>Command syntax</em>
+<p>Next, for the key, navigate to your cloud 9 tab. Navigate to the top-right, where you will see the gear icon.</p>
 
-<ul>
-<li>Insert Snapshot</li>
-</ul>
+<p><em>Now that you're in Settings, go to the left sidebar and click on SSH keys tab. This is when you'll copy and paste your SSH key from your Cloud9 into your Github repository. *</em> Please note that <strong>every SSH keys</strong> begin with <code>ssh-rsa</code>. After you copy and paste your entire ssh-rsa key code from cloud9 to Github, click on<br>
+<strong>Add SSH Key</strong>. After that, navigate back to Cloud 9 and open your "github learning" IDE. Note: To set up a new repository or edit, ensure you're logged into Github. If not, log in now.</p>
 </li>
-</ul>
-</li>
-<li>Now that you're on Settings, go to the left sidebar, and click <em>SSH and GPG keys</em>. After you click on <em>SSH and GPG Keys</em>, look for the <strong>New SSH key</strong> and click on it. Always type "Cloud9" as the title.
-
-<ul>
-<li>
-<em>Command syntax</em>
-
-<ul>
-<li>Insert Snapshot</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Next, for the key, navigate to your cloud 9 tab. Navigate to the top-right, where you will see the gear icon.
-
-<ul>
-<li>
-<em>Command syntax</em>
-
-<ul>
-<li>Insert snapshot
-<em>Now that you're in Settings, go to the left sidebar and click on SSH keys tab. This is when you'll copy and paste your SSH key from your Cloud9 into your Github repository. *</em> Please note that <strong>every SSH keys</strong> begin with <code>ssh-rsa</code>. After you copy and paste your entire ssh-rsa key code from cloud9 to Github, click on<br>
-<strong>Add SSH Key</strong>. After that, navigate back to Cloud 9 and open your "github learning" IDE. Note: To set up a new repository or edit, ensure you're logged into Github. If not, log in now.</li>
-</ul>
-</li>
-<li>
-<em>Command syntax</em>
-
-<ul>
-<li>Insert snapshot</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Click on the green button that states <code>New Repository</code>.
-
-<ul>
-<li>
-<em>Command syntax</em>
-
-<ul>
-<li>Insert snapshot</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Name your repository something that <strong>associates with what you'll be working on in your repository.</strong> <em>Always leave your repositories public and leave `Initialize this repository with a README unchecked.</em>
-
-<ul>
-<li>
-<em>Command syntax</em>
-
-<ul>
-<li>Insert snapshot</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<em>ALWAYS</em> <strong>make sure you have SSH key selected</strong>. You may want to save your repository and clone it to your Cloud9 by copying and pasting the texts from the "...or push an existing repository from the command line" column. This is when you'll paste and enter your Github info. This includes your e-mail and password you used to sign in to Github.
-
-<ul>
-<li>
-<em>Command syntax</em>
-
-<ul>
-<li>Insert snapshot</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>After you enter your Github e-mail and password, you will receive a text statement, saying, "Hi ! You've successfully authenticated, but Github does not provide shell access." This is when you hit <code>git init</code>, then you <code>git add .</code> before you enter <code>git commit -m "message"</code>. For the message, try thinking of something appropriate and/or meaningful to put for your message. Don't enter messages like, "Complete" or "Brooklyn down". This will cause confusion and errors to take place in your repository. The best messages to use are such, but unlimited to: "Create empty file structure", "Remove extra whitespace", "Change dark reds to navy blues", "Refactor to use hashes instead of arrays", etc.</li>
-<li>After you commit, refresh your Github page. Notice that there will be a new change, with a new Github repository with a new name.</li>
+<li><p>Click on the green button that states <code>New Repository</code>.</p></li>
+<li><p>Name your repository something that <strong>associates with what you'll be working on in your repository.</strong> <em>Always leave your repositories public and leave `Initialize this repository with a README unchecked.</em></p></li>
+<li><p><em>ALWAYS</em> <strong>make sure you have SSH key selected</strong>. You may want to save your repository and clone it to your Cloud9 by copying and pasting the texts from the "...or push an existing repository from the command line" column. This is when you'll paste and enter your Github info. This includes your e-mail and password you used to sign in to Github.</p></li>
+<li><p>After you enter your Github e-mail and password, you will receive a text statement, saying, "Hi ! You've successfully authenticated, but Github does not provide shell access." This is when you hit <code>git init</code>, then you <code>git add .</code> before you enter <code>git commit -m "message"</code>. For the message, try thinking of something appropriate and/or meaningful to put for your message. Don't enter messages like, "Complete" or "Brooklyn down". This will cause confusion and errors to take place in your repository. The best messages to use are such, but unlimited to: "Create empty file structure", "Remove extra whitespace", "Change dark reds to navy blues", "Refactor to use hashes instead of arrays", etc.</p></li>
+<li><p>After you commit, refresh your Github page. Notice that there will be a new change, with a new Github repository with a new name.</p></li>
 </ul>
 
 <hr>
@@ -167,23 +96,13 @@ you'll notice that more Git commands, such as <code>git status</code>, <code>git
 <a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
 
 <ul>
-<li>The command <code>status</code> checks the status of a file. By way of example, untracked files would be shown in <strong>RED</strong>, while the tracked ones are represented in <strong>GREEN</strong>. This is done by entering <code>git status</code>, which then enters and shows tracked and untracked file(s).
-
-<ul>
-<li>Command syntax
-
-<ul>
-<li>Insert snapshot</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>The command <code>add</code> adds changes to the file to be committed. As an illustration, if you were to perform a file commit using <code>git add</code>, you would enter <code>git add file</code>. This is similar to how you would add people into a photo.</li>
-<li>The command <code>git commit -m "message"</code> takes snapshots of the stage and adds it to the timeline. This is done by simply typing <code>git commit -m "message"</code> before entering it. Now, pay <strong><em>CLOSE ATTENTION</em></strong> to the <code>"message"</code>part. This is where you need to pause and think of a meaningful and specific message to put in <code>"message"</code>. As mentioned earlier before, don't put things like, "Change stuff", "Work on code", etc. The most meaningful messages are, but not limited to, such things as "Removed extra comma", "Removed file fork-practice", etc.</li>
-<li>Using command <code>git push</code>, it pushes the information you changed from cloud9 to Github. For example, after you initialize, you push your Cloud9 project to Github. Therefore, Github now has your remote repository that you pushed your Cloud9 project from. However, you may receive an error, stating "git push -u origin master
+<li><p>The command <code>status</code> checks the status of a file. By way of example, untracked files would be shown in <strong>RED</strong>, while the tracked ones are represented in <strong>GREEN</strong>. This is done by entering <code>git status</code>, which then enters and shows tracked and untracked file(s).</p></li>
+<li><p>The command <code>add</code> adds changes to the file to be committed. As an illustration, if you were to perform a file commit using <code>git add</code>, you would enter <code>git add file</code>. This is similar to how you would add people into a photo.</p></li>
+<li><p>The command <code>git commit -m "message"</code> takes snapshots of the stage and adds it to the timeline. This is done by simply typing <code>git commit -m "message"</code> before entering it. Now, pay <strong><em>CLOSE ATTENTION</em></strong> to the <code>"message"</code>part. This is where you need to pause and think of a meaningful and specific message to put in <code>"message"</code>. As mentioned earlier before, don't put things like, "Change stuff", "Work on code", etc. The most meaningful messages are, but not limited to, such things as "Removed extra comma", "Removed file fork-practice", etc.</p></li>
+<li><p>Using command <code>git push</code>, it pushes the information you changed from cloud9 to Github. For example, after you initialize, you push your Cloud9 project to Github. Therefore, Github now has your remote repository that you pushed your Cloud9 project from. However, you may receive an error, stating "git push -u origin master
 Warning: Permanently added 'github.com,207.97.227.239' (RSA) to the list of known hosts.
 Permission denied (publickey).
-fatal: The remote end hung up unexpectedly".</li>
+fatal: The remote end hung up unexpectedly".</p></li>
 </ul>
 
 <hr>
@@ -193,23 +112,15 @@ fatal: The remote end hung up unexpectedly".</li>
 </h2>
 
 <ul>
-<li>Error handling
+<li>
+<p>Error handling</p>
 
 <ul>
-<li>If there is this one moment you do <code>git init</code> in a wrong directory, you'll see a code displaying, "initialized empty Git repository in /path/to/folder/.git/". However, don't despise yourself for it and give up! The only reason why this happens is because there's a hidden .git folder. We can fix it. We just simply need to type in <code>rm -rf .git</code> to remove the hidden .git folder.
-
-<ul>
-<li>Command syntax
-
-<ul>
-<li>Insert snapshot</li>
+<li>If there is this one moment you do <code>git init</code> in a wrong directory, you'll see a code displaying, "initialized empty Git repository in /path/to/folder/.git/". However, don't despise yourself for it and give up! The only reason why this happens is because there's a hidden .git folder. We can fix it. We just simply need to type in <code>rm -rf .git</code> to remove the hidden .git folder.</li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Collaboration
+<li>
+<p>Collaboration</p>
 
 <ul>
 <li>To fork and clone, click on <code>Explore Github</code>. Browse on any topics, and when you want to find more, click on <code>More Showcases &gt;</code>. Just continue browsing and when you come into a topic that most interests you, click on the username/topic file. There, you will find a README file, and click on it to read. Then after that, click on <code>Fork</code>. It should only take a few seconds. After that, you'll find the <code>_"Clone &amp; Download"_</code> icon. Click on it, and there, you will find the SSH key to the file you selected. The URL text, stating "<a href="mailto:git@github.com">git@github.com</a>:,/.git" is the exact SSH key to the original creator's file, so click on that text, and copy. Then, navigate back to your Cloud9 tab, and paste at once, using only the <code>Ctrl + V</code> keys by pressing at the same time.</li>
